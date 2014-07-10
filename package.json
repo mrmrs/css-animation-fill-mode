@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "animation-fill-mode"
   ],
   "css-animation-fill-mode": {
     "type": "git",
