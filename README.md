@@ -21,7 +21,9 @@ View on [npm](https://www.npmjs.org/package/css-animation-fill-mode)
 ## File Size
 
 943B animation-fill-mode.css
-774B animation-fill-mode.min.css
+774B animation-fill-mode.min.css 
+189B minified and gzipped
+
 
 ## The Code
 ```
