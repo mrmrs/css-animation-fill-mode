@@ -1,5 +1,6 @@
 {
   "name": "css-animation-fill-mode",
+  "style": "animation-fill-mode.css",
   "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-animation-fill-mode",
   "description": "Css module of single purpose classes for animation fill mode",
