@@ -1,7 +1,7 @@
 {
   "name": "css-animation-fill-mode",
   "style": "animation-fill-mode.css",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "homepage": "http://github.com/mrmrs/css-animation-fill-mode",
   "description": "Css module of single purpose classes for animation fill mode",
   "keywords": [
@@ -36,4 +36,3 @@
     "start": "tachyons src/css-animation-fill-mode.css > css/css-animation-fill-mode.css && tachyons src/css-animation-fill-mode.css --minify > css/css-animation-fill-mode.min.css && tachyons src/css-animation-fill-mode.css --generate-docs --package=../../package.json > readme.md"
   }
 }
-
