@@ -1,15 +1,26 @@
+/*
+   ANIMATION FILL MODE
+*/
+.a-fil-non { animation-fill-mode: none; }
+.a-fil-frw { animation-fill-mode: forwards; }
+.a-fil-bck { animation-fill-mode: backwards; }
+.a-fil-bth { animation-fill-mode: both; }
+@media screen and (min-width: 48em) {
+ .a-fil-non-ns { animation-fill-mode: none; }
+ .a-fil-frw-ns { animation-fill-mode: forwards; }
+ .a-fil-bck-ns { animation-fill-mode: backwards; }
+ .a-fil-bth-ns { animation-fill-mode: both; }
+}
+@media screen and (min-width:48em) and (max-width: 64em) {
+ .a-fil-non-m { animation-fill-mode: none; }
+ .a-fil-frw-m { animation-fill-mode: forwards; }
+ .a-fil-bck-m { animation-fill-mode: backwards; }
+ .a-fil-bth-m { animation-fill-mode: both; }
+}
+@media screen and (min-width: 64em) {
+ .a-fil-non-l { animation-fill-mode: none; }
+ .a-fil-frw-l { animation-fill-mode: forwards; }
+ .a-fil-bck-l { animation-fill-mode: backwards; }
+ .a-fil-bth-l { animation-fill-mode: both; }
+}
 
-  Postprocess tachyons stylesheets
-
-  Usage
-    $ tachyons <input.css>
-
-  Options
-    -m, --minify Minify the output stylesheet
-    --generate-docs Generate documentation for a given module
-    --package The path to the module package to be documented
-
-  Example
-    $ tachyons src/tachyons.css > dist/c.css
-    $ tachyons src/tachyons.css > dist/c.css --minify
-    $ tachyons src/tachyons-type-scale.css --generate-docs --package=./package.json > readme.md
