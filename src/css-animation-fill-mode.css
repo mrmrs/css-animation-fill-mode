@@ -8,10 +8,10 @@
   .a-fil-bth { animation-fill-mode: both; }
 
 @media screen and (min-width: 48em) {
-  .a-fil-non-ns { animation-fill-mode: none; }
-  .a-fil-frw-ns { animation-fill-mode: forwards; }
-  .a-fil-bck-ns { animation-fill-mode: backwards; }
-  .a-fil-bth-ns { animation-fill-mode: both; }
+  .a-fil-non-s { animation-fill-mode: none; }
+  .a-fil-frw-s { animation-fill-mode: forwards; }
+  .a-fil-bck-s { animation-fill-mode: backwards; }
+  .a-fil-bth-s { animation-fill-mode: both; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
