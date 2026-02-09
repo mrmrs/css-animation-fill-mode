@@ -7,21 +7,21 @@
   .a-fil-bck { animation-fill-mode: backwards; }
   .a-fil-bth { animation-fill-mode: both; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .a-fil-non-s { animation-fill-mode: none; }
   .a-fil-frw-s { animation-fill-mode: forwards; }
   .a-fil-bck-s { animation-fill-mode: backwards; }
   .a-fil-bth-s { animation-fill-mode: both; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .a-fil-non-m { animation-fill-mode: none; }
   .a-fil-frw-m { animation-fill-mode: forwards; }
   .a-fil-bck-m { animation-fill-mode: backwards; }
   .a-fil-bth-m { animation-fill-mode: both; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .a-fil-non-l { animation-fill-mode: none; }
   .a-fil-frw-l { animation-fill-mode: forwards; }
   .a-fil-bck-l { animation-fill-mode: backwards; }
