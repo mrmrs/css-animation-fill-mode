@@ -1,38 +1,44 @@
 {
   "name": "css-animation-fill-mode",
-  "style": "animation-fill-mode.css",
-  "version": "1.0.9",
-  "homepage": "http://github.com/mrmrs/css-animation-fill-mode",
-  "description": "Css module of single purpose classes for animation fill mode",
+  "version": "2.0.0",
+  "description": "Functional CSS for animation-fill-mode",
+  "style": "dist/animation-fill-mode.css",
+  "main": "dist/animation-fill-mode.css",
+  "exports": {
+    ".": "./dist/animation-fill-mode.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "animation-fill-mode"
+    "animation-fill-mode",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-animation-fill-mode": {
+  "homepage": "https://github.com/mrmrs/css-animation-fill-mode",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-animation-fill-mode.git"
+    "url": "https://github.com/mrmrs/css-animation-fill-mode.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-animation-fill-mode/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-animation-fill-mode/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
