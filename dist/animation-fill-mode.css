@@ -1,69 +1,69 @@
-.a-fill-none {
+.a-fil-non {
   animation-fill-mode: none;
 }
 
-.a-fill-forwards {
+.a-fil-frw {
   animation-fill-mode: forwards;
 }
 
-.a-fill-backwards {
+.a-fil-bck {
   animation-fill-mode: backwards;
 }
 
-.a-fill-both {
+.a-fil-bth {
   animation-fill-mode: both;
 }
 
 @media screen and (width >= 32em) {
-  .a-fill-none-s {
+  .a-fil-non-s {
     animation-fill-mode: none;
   }
 
-  .a-fill-forward-s {
+  .a-fil-frw-s {
     animation-fill-mode: forwards;
   }
 
-  .a-fill-backwards-s {
+  .a-fil-bck-s {
     animation-fill-mode: backwards;
   }
 
-  .a-fill-both-s {
+  .a-fil-bth-s {
     animation-fill-mode: both;
   }
 }
 
 @media screen and (width >= 48em) {
-  .a-fill-none-m {
+  .a-fil-non-m {
     animation-fill-mode: none;
   }
 
-  .a-fill-forwards-m {
+  .a-fil-frw-m {
     animation-fill-mode: forwards;
   }
 
-  .a-fill-backwards-m {
+  .a-fil-bck-m {
     animation-fill-mode: backwards;
   }
 
-  .a-fill-both-m {
+  .a-fil-bth-m {
     animation-fill-mode: both;
   }
 }
 
 @media screen and (width >= 96em) {
-  .a-fill-none-l {
+  .a-fil-non-l {
     animation-fill-mode: none;
   }
 
-  .a-fill-forwards-l {
+  .a-fil-frw-l {
     animation-fill-mode: forwards;
   }
 
-  .a-fill-backwards-l {
+  .a-fil-bck-l {
     animation-fill-mode: backwards;
   }
 
-  .a-fill-both-l {
+  .a-fil-bth-l {
     animation-fill-mode: both;
   }
 }

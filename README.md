@@ -6,8 +6,8 @@ Functional CSS for animation-fill-mode
 
 | File | Size |
 |------|------|
-| `dist/animation-fill-mode.css` | 1032 bytes |
-| `dist/animation-fill-mode.min.css` | 802 bytes (180 Gzipped) |
+| `dist/animation-fill-mode.css` | 965 bytes |
+| `dist/animation-fill-mode.min.css` | 735 bytes (177 Gzipped) |
 
 ## Install
 
@@ -39,22 +39,22 @@ npm install css-animation-fill-mode
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.a-fill-none` | `animation-fill-mode: none;` |
-| `.a-fill-forwards` | `animation-fill-mode: forwards;` |
-| `.a-fill-backwards` | `animation-fill-mode: backwards;` |
-| `.a-fill-both` | `animation-fill-mode: both;` |
-| `.a-fill-none-s` | `animation-fill-mode: none;` |
-| `.a-fill-forward-s` | `animation-fill-mode: forwards;` |
-| `.a-fill-backwards-s` | `animation-fill-mode: backwards;` |
-| `.a-fill-both-s` | `animation-fill-mode: both;` |
-| `.a-fill-none-m` | `animation-fill-mode: none;` |
-| `.a-fill-forwards-m` | `animation-fill-mode: forwards;` |
-| `.a-fill-backwards-m` | `animation-fill-mode: backwards;` |
-| `.a-fill-both-m` | `animation-fill-mode: both;` |
-| `.a-fill-none-l` | `animation-fill-mode: none;` |
-| `.a-fill-forwards-l` | `animation-fill-mode: forwards;` |
-| `.a-fill-backwards-l` | `animation-fill-mode: backwards;` |
-| `.a-fill-both-l` | `animation-fill-mode: both;` |
+| `.a-fil-non` | `animation-fill-mode: none;` |
+| `.a-fil-frw` | `animation-fill-mode: forwards;` |
+| `.a-fil-bck` | `animation-fill-mode: backwards;` |
+| `.a-fil-bth` | `animation-fill-mode: both;` |
+| `.a-fil-non-s` | `animation-fill-mode: none;` |
+| `.a-fil-frw-s` | `animation-fill-mode: forwards;` |
+| `.a-fil-bck-s` | `animation-fill-mode: backwards;` |
+| `.a-fil-bth-s` | `animation-fill-mode: both;` |
+| `.a-fil-non-m` | `animation-fill-mode: none;` |
+| `.a-fil-frw-m` | `animation-fill-mode: forwards;` |
+| `.a-fil-bck-m` | `animation-fill-mode: backwards;` |
+| `.a-fil-bth-m` | `animation-fill-mode: both;` |
+| `.a-fil-non-l` | `animation-fill-mode: none;` |
+| `.a-fil-frw-l` | `animation-fill-mode: forwards;` |
+| `.a-fil-bck-l` | `animation-fill-mode: backwards;` |
+| `.a-fil-bth-l` | `animation-fill-mode: both;` |
 
 ### Responsive
 
@@ -66,7 +66,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.a-fill-none-m` applies the property at the medium breakpoint and above.
+Example: `.a-fil-non-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
